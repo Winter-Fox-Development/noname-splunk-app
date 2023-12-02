@@ -8,33 +8,33 @@ in order to install the Naname >Splunk App, you would need to setup the Noname a
 ### Issues
 * Configuration
    - Integration Name `Splunk-Issues`
-   - Splunk Domain URL `<Your Splunk Domain URL>`
+   - Splunk Domain URL `<Your Splunk Domain URL - HTTPS ONLY>`
    - Token `<Your Splunk Token>`
 * Define Source Type
    - Custom 
    - Custom Source Type - Noname-Issues
 * Enterprise Extra Data
-   - HTTP Port Number  - `<Your Splunk Domain Port>`
+   - HTTP Port Number  - `<Your Splunk HEC Port>`
 ### Configuration
 * Configuration
   - Integration Name `Splunk-Schema`
-  - Splunk Domain URL `<Your Splunk Domain URL>`
+  - Splunk Domain URL `<Your Splunk Domain URL - HTTPS ONLY>`
   -  Token - `<Your Splunk Token>`   
 * Define Source Type
   - Custom 
   - Custom Source Type `Noname-Schema`
 * Enterprise Extra Data
-  - HTTP Port Number  `Your Splunk Domain Port`
+  - HTTP Port Number  `Your Splunk HEC Port`
 ### Audit
 * Configuration
   - Integration Name `Splunk-Audit`
-  - Splunk Domain URL `<Your Splunk Domain URL>`
+  - Splunk Domain URL `<Your Splunk Domain URL - HTTPS ONLY>`
   - Token `<Your Splunk Token>`
 * Define Source Type
   - Custom 
   - Custom Source Type `Noname-Audit`
 * Enterprise Extra Data
-  - HTTP Port Number `<Your Splunk Domain Port>`
+  - HTTP Port Number `<Your Splunk HEC Port>`
 ## Create three different workflow policies as follows:
 ### Splunk Issues
 * Choose Workflow Condition
